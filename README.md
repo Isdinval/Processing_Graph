@@ -2,6 +2,8 @@
 
 # I°) Breadth First Search - Pseudocode
 
+Source : Wikipedia : https://en.wikipedia.org/wiki/Breadth-first_search
+
 Breadth first traversal is accomplished by enqueueing each level of a tree sequentially as the root of any subtree is encountered. There are 2 cases in the iterative algorithm.
 - Root case: The traversal queue is initially empty so the root node must be added before the general case.
 General case: Process any items in the queue, while also expanding their children. Stop if the queue is empty. The general case will halt after processing the bottom level as leaf nodes have no children.
@@ -68,6 +70,8 @@ General case: Process any items in the queue, while also expanding their childre
           return action_list
 
 # II°) A* search algorithm - Pseudocode
+
+Source : Wikipedia : https://en.wikipedia.org/wiki/A*_search_algorithm
 
 A* is an informed search algorithm, or a best-first search, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). It does this by maintaining a tree of paths originating at the start node and extending those paths one edge at a time until its termination criterion is satisfied.
 
